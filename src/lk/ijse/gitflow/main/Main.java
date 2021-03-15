@@ -8,10 +8,14 @@ import java.util.ArrayList;
  **/
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> allCustomerNames= new ArrayList<>();
+        ArrayList<String> allCustomerNames = new ArrayList<>();
         allCustomerNames.add("Kasun");
         allCustomerNames.add("Sura-Boy");
         allCustomerNames.add("Yase-Boy");
         allCustomerNames.add("Thamalsha");
+
+        for (String allCustomerName : allCustomerNames) {
+            System.out.println(allCustomerName);
+        }
     }
 }
