@@ -4,14 +4,18 @@ import java.util.ArrayList;
 
 /**
  * @author : Sanu Vithanage
- * @since : 0.1.0
+ * @since : 0.2.0
  **/
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> allCustomerNames= new ArrayList<>();
+        ArrayList<String> allCustomerNames = new ArrayList<>();
         allCustomerNames.add("Kasun");
         allCustomerNames.add("Sura-Boy");
         allCustomerNames.add("Yase-Boy");
         allCustomerNames.add("Thamalsha");
+
+        for (String allCustomerName : allCustomerNames) {
+            System.out.println(allCustomerName);
+        }
     }
 }
