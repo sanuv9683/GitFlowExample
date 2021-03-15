@@ -4,7 +4,7 @@ Let's learn the Git Flow.
 
 ### Version
 
-0.0.1
+0.1.0
 
 ### LICENSE
 
